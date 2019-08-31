@@ -1,7 +1,8 @@
 {
   "name": "@polomac/p-table-row",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "5f0b8de2fc2cc7df3e7dc8859b3d4745df58d740"
 }
