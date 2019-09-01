@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import PTableRow from '@polomac/P-table-row/PTableRow'
+import PTableRow from '@polomac/p-table-row/PTableRow'
 export default {
   name: 'PTable',
   props: {
@@ -30,7 +30,7 @@ export default {
     },
     items: {
       type: Array,
-      required: true
+      required: true,
     },
     headerColor: {
       type: String,
