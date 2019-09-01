@@ -34,6 +34,9 @@ storiesOf('PTable', module)
         :headerColor="headerColor"
         :headerBackground="headerBackground"
         :headerFontSize="headerFontSize"
+        :color="color"
+        :background="background"
+        :fontSize="fontSize"
       />
     `,
     data: () => ({
@@ -46,5 +49,8 @@ storiesOf('PTable', module)
       headerColor: 'azure',
       headerBackground: '#444',
       headerFontSize: '26px',
+      color: 'dodgerblue',
+      background: '#f0f0fa',
+      fontSize: '18px',
     })
   }))

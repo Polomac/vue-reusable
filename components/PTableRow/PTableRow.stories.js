@@ -19,8 +19,8 @@ storiesOf('PTableRow', module)
         'milan.polomac@gmail.com',
         'black'
       ],
-      color: '#f0f0fa',
-      background: 'dodgerblue',
-      fontSize: '24px',
+      color: 'blue',
+      background: 'gray',
+      fontSize: '18px',
     })
   }))

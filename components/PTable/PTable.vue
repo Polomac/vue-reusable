@@ -13,9 +13,9 @@
       v-for="(values, index) in items"
       :key="index"
       :values="values"
-      color="crimson"
-      background="#f0f0fa"
-      fontSize="24px"
+      :color="color"
+      :background="background"
+      :fontSize="fontSize"
     />
   </table>
 </template>
@@ -44,9 +44,24 @@ export default {
       type: String,
       required: false,
     },
+    color: {
+      type: String,
+      required: false,
+    },
+    background: {
+      type: String,
+      required: false,
+    },
+    fontSize: {
+      type: String,
+      required: false,
+    },
   },
   components: {
     PTableRow,
+  },
+  beforeMount() {
+    console.log(this.color);
   },
 }
 </script>

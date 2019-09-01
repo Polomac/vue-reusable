@@ -4,7 +4,7 @@
       v-for="(value, index) in values"
       :key="index"
       class="table-cell"
-      :style="{fontSize: fontSize}">
+      :style="{ fontSize: fontSize }">
       {{ value }}
     </td>
   </tr>
@@ -31,6 +31,9 @@ export default {
       required: false,
     },
   },
+  beforeMount() {
+    console.log(this.color, this.background, this. fontSize);
+  }
 }
 </script>
 
