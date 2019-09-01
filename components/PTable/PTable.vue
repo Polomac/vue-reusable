@@ -21,7 +21,8 @@
 </template>
 
 <script>
-import PTableRow from '@polomac/p-table-row/PTableRow'
+import PTableRow from '@polomac/p-table-row/PTableRow';
+
 export default {
   name: 'PTable',
   props: {
