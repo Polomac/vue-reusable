@@ -24,3 +24,27 @@ storiesOf('PTable', module)
       items
     })
   }))
+  .add('with 7 items + header', () => ({
+    components: { PTable },
+    template:
+    `
+      <PTable
+        :header="header"
+        :items="items"
+        :headerColor="headerColor"
+        :headerBackground="headerBackground"
+        :headerFontSize="headerFontSize"
+      />
+    `,
+    data: () => ({
+      header: [
+        'Name',
+        'Email',
+        'Belt'
+      ],
+      items,
+      headerColor: 'azure',
+      headerBackground: '#444',
+      headerFontSize: '26px',
+    })
+  }))

@@ -1,5 +1,5 @@
 <template>
-  <tr class="table-row" :style="{color: color, background: background}">
+  <tr class="table-row" :style="{ color: color, background: background }">
     <td
       v-for="(value, index) in values"
       :key="index"
