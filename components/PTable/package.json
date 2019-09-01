@@ -1,10 +1,10 @@
 {
   "name": "@polomac/p-table",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@polomac/p-table-row": "^0.0.4"
+    "@polomac/p-table-row": "^0.0.5"
   }
 }
